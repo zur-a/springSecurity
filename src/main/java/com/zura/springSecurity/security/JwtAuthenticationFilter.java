@@ -33,6 +33,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         jwt = authHeader.substring(7);
 
         //Extracting the user's username, which is his email, from the jwt token
-
+        emailUsername = jwtService.extractUsername(jwt);
     }
 }
