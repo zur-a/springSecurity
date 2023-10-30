@@ -1,5 +1,6 @@
 package com.zura.springSecurity.controller;
 
+import com.zura.springSecurity.response.AuthenticationResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
